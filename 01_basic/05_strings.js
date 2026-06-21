@@ -32,4 +32,9 @@ const gameName = new String('hitesh-hc')
 const url = "https://hitesh.com/hitesh%20chaudhary"
 
 //console.log(url.replace('%20','-'))
-console.log(url.replace('com','in'))
+//console.log(url.replace('com','in'))
+//console.log(url.includes('hitesh'))
+//console.log(url.includes('something'))
+
+const str = 'Something,bigger,going,to,happen'
+console.log(str.split(','))
